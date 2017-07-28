@@ -26,6 +26,8 @@
 		CC4121671F2AE17E007A0DB3 /* SaftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4121661F2AE17E007A0DB3 /* SaftTableViewCell.m */; };
 		CC41216A1F2AE3AB007A0DB3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4121691F2AE3AB007A0DB3 /* PersonViewController.m */; };
 		CC41216E1F2AE3CC007A0DB3 /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41216D1F2AE3CC007A0DB3 /* PersonTableViewCell.m */; };
+		CC4121711F2B06CE007A0DB3 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4121701F2B06CE007A0DB3 /* ClassifyViewController.m */; };
+		CC4121741F2B07B5007A0DB3 /* ClassifyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4121731F2B07B5007A0DB3 /* ClassifyCollectionViewCell.m */; };
 		CC5BEA5C1F29CC60009E9B28 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BEA5B1F29CC60009E9B28 /* MyViewController.m */; };
 		CC5BEA601F29E2C9009E9B28 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BEA5F1F29E2C9009E9B28 /* SetViewController.m */; };
 		CC74A5AA1F28639300817E1B /* PeopleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74A5A91F28639300817E1B /* PeopleCollectionViewCell.m */; };
@@ -96,6 +98,10 @@
 		CC4121691F2AE3AB007A0DB3 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		CC41216C1F2AE3CC007A0DB3 /* PersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewCell.h; sourceTree = "<group>"; };
 		CC41216D1F2AE3CC007A0DB3 /* PersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
+		CC41216F1F2B06CE007A0DB3 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		CC4121701F2B06CE007A0DB3 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		CC4121721F2B07B5007A0DB3 /* ClassifyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyCollectionViewCell.h; sourceTree = "<group>"; };
+		CC4121731F2B07B5007A0DB3 /* ClassifyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyCollectionViewCell.m; sourceTree = "<group>"; };
 		CC5BEA5A1F29CC60009E9B28 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		CC5BEA5B1F29CC60009E9B28 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		CC5BEA5E1F29E2C9009E9B28 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
@@ -348,6 +354,8 @@
 		CC74A5A61F2862D000817E1B /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				CC41216F1F2B06CE007A0DB3 /* ClassifyViewController.h */,
+				CC4121701F2B06CE007A0DB3 /* ClassifyViewController.m */,
 				CC74A5D21F28A61600817E1B /* MainViewController.h */,
 				CC74A5D31F28A61600817E1B /* MainViewController.m */,
 				CC74A5C21F2886DF00817E1B /* LMJDropdownMenu.h */,
@@ -368,6 +376,8 @@
 				CC74A5BB1F2877FE00817E1B /* LeftTableViewCell.m */,
 				CC74A5BD1F28780C00817E1B /* RightTableViewCell.h */,
 				CC74A5BE1F28780C00817E1B /* RightTableViewCell.m */,
+				CC4121721F2B07B5007A0DB3 /* ClassifyCollectionViewCell.h */,
+				CC4121731F2B07B5007A0DB3 /* ClassifyCollectionViewCell.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -573,6 +583,7 @@
 				CC74A5C81F2890B200817E1B /* LoginViewController.m in Sources */,
 				CC5BEA5C1F29CC60009E9B28 /* MyViewController.m in Sources */,
 				CC74A5AA1F28639300817E1B /* PeopleCollectionViewCell.m in Sources */,
+				CC4121711F2B06CE007A0DB3 /* ClassifyViewController.m in Sources */,
 				CC4121671F2AE17E007A0DB3 /* SaftTableViewCell.m in Sources */,
 				CC74A5BC1F2877FE00817E1B /* LeftTableViewCell.m in Sources */,
 				CC74A5AD1F28639C00817E1B /* DoorCollectionViewCell.m in Sources */,
@@ -590,6 +601,7 @@
 				CC4121551F2AD4D5007A0DB3 /* CodeViewController.m in Sources */,
 				CC74A5BF1F28780C00817E1B /* RightTableViewCell.m in Sources */,
 				CC387B631F2851ED004070FC /* BaseTableViewController.m in Sources */,
+				CC4121741F2B07B5007A0DB3 /* ClassifyCollectionViewCell.m in Sources */,
 				CC4121601F2ADF99007A0DB3 /* SafeViewController.m in Sources */,
 				CC74A5D41F28A61600817E1B /* MainViewController.m in Sources */,
 				CC387B271F284F6A004070FC /* main.m in Sources */,

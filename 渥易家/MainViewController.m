@@ -14,6 +14,7 @@
 #import "LeftTableViewCell.h"
 #import "RightTableViewCell.h"
 #import "MyViewController.h"
+#import "ClassifyViewController.h"
 @interface MainViewController ()<UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,SDCycleScrollViewDelegate,leftCellDelegate,LMJDropdownMenuDelegate>{
 
     NSArray *imgArr;
@@ -345,7 +346,11 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+    if (tableView == self.rightTableView) {
+        ClassifyViewController *vc = [[ClassifyViewController alloc]init];
+        vc.titleStr = imgArr[indexPath.row];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 #pragma mark - UITableViewDataSource
